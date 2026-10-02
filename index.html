@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Stika</title>
+<meta name="description" content="Stika is the sticker and notes app for journaling. Make cute stickers from your own images and drag them into any note-taking app.">
+<style>
+  @font-face {
+    font-family: "Abby2";
+    src: url("Abby2-Regular.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+  }
+  :root { --ink: #000; --paper: #fff; --muted: #444; }
+  * { box-sizing: border-box; }
+  html { -webkit-text-size-adjust: 100%; }
+  body {
+    margin: 0;
+    background: var(--paper);
+    color: var(--ink);
+    font-family: "Abby2", "Helvetica Neue", Arial, sans-serif;
+    font-size: 1.2rem;
+    line-height: 1.55;
+  }
+  main { max-width: 640px; margin: 0 auto; padding: 80px 24px 48px; }
+  h1 {
+    font-weight: normal;
+    font-size: clamp(4.5rem, 24vw, 9rem);
+    line-height: .9;
+    margin: 0 0 24px;
+  }
+  h2 { font-weight: normal; font-size: 1.8rem; margin: 48px 0 8px; }
+  p { max-width: 54ch; margin: 12px 0; }
+  .tagline { font-size: 1.6rem; line-height: 1.25; }
+  ul { padding-left: 1.2rem; max-width: 54ch; }
+  li { margin-bottom: 10px; }
+  a { color: var(--ink); text-decoration-thickness: 2px; text-underline-offset: 4px; }
+  a:focus-visible { outline: 3px solid var(--ink); outline-offset: 4px; }
+  nav { margin-top: 48px; display: flex; gap: 24px; flex-wrap: wrap; }
+  footer {
+    margin-top: 72px;
+    padding-top: 20px;
+    border-top: 2px solid var(--ink);
+    color: var(--muted);
+    font-size: 1rem;
+  }
+</style>
+</head>
+<body>
+<main>
+  <h1>Stika</h1>
+  <p class="tagline">The sticker and notes app to meet all your journaling needs.</p>
+  <p>Make your notes aesthetic with cute stickers extracted using Apple's own VisionKit.</p>
+
+  <h2>Features</h2>
+  <ul>
+    <li>Drag and drop images into the app to create sticker sheets or notes</li>
+    <li>Drag and drop stickers or notes directly from the app to your desired note-taking app</li>
+  </ul>
+
+  <nav aria-label="Site">
+    <a href="support.html">Support</a>
+    <a href="privacy.html">Privacy policy</a>
+  </nav>
+
+  <footer>&copy; 2026 WaoStudios</footer>
+</main>
+</body>
+</html>

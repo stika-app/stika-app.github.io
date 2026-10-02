@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Stika Support</title>
+<meta name="description" content="Get help with Stika, report a bug, or request a feature.">
+<style>
+  @font-face {
+    font-family: "Abby2";
+    src: url("Abby2-Regular.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+  }
+  :root { --ink: #000; --paper: #fff; --muted: #444; }
+  * { box-sizing: border-box; }
+  html { -webkit-text-size-adjust: 100%; }
+  body {
+    margin: 0;
+    background: var(--paper);
+    color: var(--ink);
+    font-family: "Abby2", "Helvetica Neue", Arial, sans-serif;
+    font-size: 1.2rem;
+    line-height: 1.55;
+  }
+  main { max-width: 640px; margin: 0 auto; padding: 56px 24px 48px; }
+  h1 { font-weight: normal; font-size: clamp(3rem, 14vw, 5rem); line-height: .95; margin: 24px 0 16px; }
+  h2 { font-weight: normal; font-size: 1.8rem; margin: 48px 0 8px; }
+  p { max-width: 54ch; margin: 12px 0; }
+  a { color: var(--ink); text-decoration-thickness: 2px; text-underline-offset: 4px; }
+  a:focus-visible, summary:focus-visible { outline: 3px solid var(--ink); outline-offset: 4px; }
+  .contact { border: 3px solid var(--ink); padding: 20px 24px; margin: 28px 0 8px; max-width: 54ch; }
+  .contact p { margin: 4px 0; }
+  details { border-top: 2px solid var(--ink); padding: 14px 0; max-width: 54ch; }
+  details:last-of-type { border-bottom: 2px solid var(--ink); }
+  summary { cursor: pointer; }
+  details p { margin-top: 10px; }
+  footer { margin-top: 64px; color: var(--muted); font-size: 1rem; }
+</style>
+</head>
+<body>
+<main>
+  <a href="index.html">&larr; Stika</a>
+  <h1>Stika support</h1>
+  <p>Something not working, or an idea to make Stika better? Send an email and include the details below. Replies usually arrive within a few days.</p>
+
+  <div class="contact">
+    <p>Email</p>
+    <p><a href="mailto:your@email.com">your@email.com</a></p>
+  </div>
+
+  <h2>When you report a bug, include</h2>
+  <p>Your device model, your iOS or iPadOS version, your Stika version, and what you were doing when the problem happened. Screenshots help.</p>
+
+  <h2>Questions</h2>
+
+  <details>
+    <summary>How do I make a sticker?</summary>
+    <p>Drag an image into Stika. The app uses Apple's VisionKit to lift the subject out of the image so you can use it as a sticker on a sticker sheet or a note.</p>
+  </details>
+
+  <details>
+    <summary>How do I use my stickers in another app?</summary>
+    <p>Drag a sticker or note from Stika and drop it into your note-taking app.</p>
+  </details>
+
+  <details>
+    <summary>How do I request a feature?</summary>
+    <p>Email the address above with a short description of what you would like to do.</p>
+  </details>
+
+  <footer>&copy; 2026 WaoStudios &middot; <a href="privacy.html">Privacy policy</a></footer>
+</main>
+</body>
+</html>
